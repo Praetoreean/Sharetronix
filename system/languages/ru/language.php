@@ -9,7 +9,7 @@
 		'author_name'	=> 'Praetoreean',
 		'author_url'	=> 'https://1studi.ru',
 		
-		'is_beta'		=> TRUE,
+		'is_beta'		=> FALSE,
 	);
 	
 ?>
