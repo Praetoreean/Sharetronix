@@ -2,12 +2,12 @@
 	
 	$current_language	= (object) array
 	(
-		'name'		=> 'Russian',
-		'php_timezone'	=> 'Russia/Moscow',
-		'php_locale'	=> 'ru_RU.UTF-8',
+		'name'		=> 'English',
+		'php_timezone'	=> 'America/New_York',
+		'php_locale'	=> 'en_GB.UTF-8',
 		
-		'author_name'	=> 'Praetoreean',
-		'author_url'	=> 'https://1studi.ru',
+		'author_name'	=> 'Sharetronix',
+		'author_url'	=> 'http://sharetronix.com',
 		
 		'is_beta'		=> FALSE,
 	);
