@@ -16,7 +16,7 @@
 		echo 'ERROR';
 		exit;
 	}
-	if( isset($C->AUTOCHECK_FOR_UPDATE) && $C->AUTOCHECK_FOR_UPDATE==0) ) {
+	if( isset($C->AUTOCHECK_FOR_UPDATE) && $C->AUTOCHECK_FOR_UPDATE==0)  {
 		echo 'ERROR';
 		exit;
 	}
