@@ -2,17 +2,17 @@
 	
 	$lang	= array
 	(
-		'invite_email_subject'	=> 'Join #COMPANY# private network',
+		'invite_email_subject'	=> 'Присоединяйтесь к сети #COMPANY# ',
 		'invite_email_hello'	=> '#WHOM#,',
-		'invite_email_message'	=> '#WHO# invites you to join #COMPANY# private network.',
-		'invite_email_regtext'	=> 'To sign up, use the following link:',
-		'invite_email_signature'	=> "Regards,\n#SITE_TITLE#",
+		'invite_email_message'	=> '#WHO# Приглашает присоединиться к сети #COMPANY# .',
+		'invite_email_regtext'	=> 'Для регистрации следуйте по ссылке:',
+		'invite_email_signature'	=> "С уважением,\n#SITE_TITLE#",
 		
-		'os_invite_email_subject'	=> 'Join #SITE_TITLE#',
+		'os_invite_email_subject'	=> 'Присоединиться #SITE_TITLE#',
 		'os_invite_email_hello'		=> '#WHOM#,',
-		'os_invite_email_message'	=> '#WHO# invites you to join #SITE_TITLE#.',
-		'os_invite_email_regtext'	=> 'To sign up, use the following link:',
-		'os_invite_email_signature'	=> "Regards,\n#SITE_TITLE#",
+		'os_invite_email_message'	=> '#WHO# Приглашает присоединиться к #SITE_TITLE#.',
+		'os_invite_email_regtext'	=> 'Для регистрации следуйте по ссылке:',
+		'os_invite_email_signature'	=> "С уважением,\n#SITE_TITLE#",
 	);
 	
 ?>
