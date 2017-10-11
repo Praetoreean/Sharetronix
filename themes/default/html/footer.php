@@ -58,7 +58,7 @@
 							To remove the link, please visit this page: http://sharetronix.com/opensource/linkremoval
 							-->
 							<?php if( !isset($C->FOOTER_REMOVE_BACKLINK) || !$C->FOOTER_REMOVE_BACKLINK ) { ?>
-							Powered by <a href="http://blogtronix.com" target="_blank" style="color:#666;">Blogtronix</a>
+							Сделано в <a href="https://1studi.ru" target="_blank" style="color:#666;">Studio One</a>
 							<?php } ?>
 						<!-- "Powered by Blogtronix" backlink END -->
 							
