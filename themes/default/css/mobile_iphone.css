@@ -1419,12 +1419,12 @@ label span {
 	top:0px;
 	right:0px;
 	width:22px;
-	height:22px
-	background-image:url('../imgs/mobile_iphone/closempost.gif');
+	height:22px;
+	background-image:url ("../imgs/mobile_iphone/closempost.gif");
 	display:block;
 }
 .mpostbody {
-	background-image:url('../imgs/mobile_iphone/mphdr.gif');
+	background-image:url ("../imgs/mobile_iphone/mphdr.gif");
 	background-position:top right;
 	background-repeat:no-repeat;
 }
