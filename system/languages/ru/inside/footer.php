@@ -4,7 +4,7 @@
 	(
 		'ftrlinks_section_general'	=> 'Ссылки',
 		'ftrlinks_section_groups'	=> 'Группы',
-		'ftrlinks_section_findpeople'	=> 'найти больше людей',
+		'ftrlinks_section_findpeople'	=> 'Участники сети',
 		'ftrlinks_section_aboutus'	=> 'О #SITE_TITLE#',
 		
 		'ftrlinks_sgn_dashboard'	=> 'Моя панель',
