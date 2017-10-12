@@ -2,7 +2,7 @@
 	
 	$lang	= array
 	(
-		'adm_menu_title'	=> 'Administration',
+		'adm_menu_title'	=> 'Администрация',
 		'admmenu_general'			=> 'General settings',
 		'admmenu_networkdomain'		=> 'Network address',
 		'admmenu_themes'			=> 'Themes',
