@@ -18,11 +18,11 @@
 		
 		'ftrlinks_sf_members'		=> 'Участники сети',
 		'ftrlinks_sf_invitemail'	=> 'Пригласить друга по email',
-		'ftrlinks_sf_invitelink'	=> 'Отпраить персональное приглашение',
+		'ftrlinks_sf_invitelink'	=> 'Ссылка - приглашение',
 		
 		'os_ftrlinks_sf_members'		=> 'Смотреть участников сети',
 		'os_ftrlinks_sf_invitemail'		=> 'Пригласить людей по email',
-		'os_ftrlinks_sf_invitelink'		=> 'Отпраить персональное приглашение',
+		'os_ftrlinks_sf_invitelink'		=> 'Ссылка - приглашение',
 		
 		'ftrlinks_sa_ourblog'		=> 'Официальный блог',
 		'ftrlinks_sa_faq'			=> 'FAQ',
