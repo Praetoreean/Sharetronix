@@ -16,20 +16,20 @@
 		'hdr_nav_invite'		=> 'Пригласить коллег',
 		'os_hdr_nav_invite'	=> 'Пригласить друзей',
 		
-		'hdr_navv_members_all'		=> 'All Members',
-		'hdr_navv_members_ifollow'	=> 'I Follow',
-		'hdr_navv_members_followme'	=> 'My Followers',
-		'hdr_navv_members_admins'	=> 'Admins',
-		'hdr_navv_groups_all'		=> 'All Groups',
-		'hdr_navv_groups_my'		=> 'My Groups',
-		'hdr_navv_groups_new'		=> 'Create Group',
+		'hdr_navv_members_all'		=> 'Все участники',
+		'hdr_navv_members_ifollow'	=> 'Я читаю',
+		'hdr_navv_members_followme'	=> 'Мои подписчики',
+		'hdr_navv_members_admins'	=> 'Админы',
+		'hdr_navv_groups_all'		=> 'Все группы',
+		'hdr_navv_groups_my'		=> 'Мои группы',
+		'hdr_navv_groups_new'		=> 'Создать группу',
 		
-		'hdr_search_posts'	=> 'Posts',
-		'hdr_search_users'	=> 'Members',
-		'hdr_search_groups'	=> 'Groups',
-		'hdr_search_submit'	=> 'Search',
+		'hdr_search_posts'	=> 'Записи',
+		'hdr_search_users'	=> 'Участники',
+		'hdr_search_groups'	=> 'Группы',
+		'hdr_search_submit'	=> 'Поиск',
 		
-		'sharetronix_install_ok_ttl'	=> 'Done',
+		'sharetronix_install_ok_ttl'	=> 'Готово',
 		'sharetronix_install_ok_txt'	=> 'Sharetronix #VER# was successfully installed.',
 	);
 	
