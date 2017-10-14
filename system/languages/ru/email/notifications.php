@@ -1,63 +1,80 @@
 <?php
-	
-	$lang	= array
-	(
-		'eml_ntf_title'	=> 'Hey #USER#,',
-		'eml_ntf_signatr'	=> "Regards,\n#SITE_URL#",
-		
-		'emltxt_ntf_editnotif'	=> 'You can edit your notification settings from here: #A0#',
-		'emlhtml_ntf_editnotif'	=> 'You can edit your notification settings from #A1#here#A2#.',
-		
-		'emlsubj_ntf_me_if_u_follows_me'		=> "#NAME# is now following you on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_follows_u2'		=> "#NAME# is now following #USER2# on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_commments_me'		=> "#NAME# commented on your post on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_commments_me2'		=> "#NAME# also commented on your post on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_commments_m2'		=> "#NAME# commented on their post on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_commments_m20'		=> "#NAME# also commented on their post on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_commments_m3'		=> "#NAME# commented on #USER2#'s post on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_commments_m32'		=> "#NAME# also commented on #USER2#'s post on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_edt_profl'		=> "#NAME# edited their profile info on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_edt_pictr'		=> "#NAME# changed their profile picture on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_creates_grp'		=> "#NAME# created new group #GROUP# on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_joins_grp'		=> "#NAME# is now a member of #GROUP# on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_invit_me_grp'		=> "#NAME# invites you to join #GROUP# on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_posts_qme'		=> "#NAME# mentioned you in their post on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_posts_prvmsg'		=> "#NAME# sent you a private message on #SITE_TITLE#",
-		'emlsubj_ntf_me_if_u_registers'		=> "#NAME# joined the #COMPANY# network",
-		
-		'emlhtml_ntf_me_if_u_follows_me'		=> '#NAME# (#USER#) is now following you.',
-		'emlhtml_ntf_me_if_u_follows_u2'		=> '#NAME# (#USER#) is now following #USER2#.',
-		'emlhtml_ntf_me_if_u_commments_me'		=> "#USER# commented on your #A1#post#A2#.",
-		'emlhtml_ntf_me_if_u_commments_me2'		=> "#USER# also commented on your #A1#post#A2#.",
-		'emlhtml_ntf_me_if_u_commments_m2'		=> "#USER# commented on their #A1#post#A2#.",
-		'emlhtml_ntf_me_if_u_commments_m20'		=> "#USER# also commented on their #A1#post#A2#.",
-		'emlhtml_ntf_me_if_u_commments_m3'		=> "#USER# commented on #USER2#'s post #A1#post#A2#.",
-		'emlhtml_ntf_me_if_u_commments_m32'		=> "#USER# also commented on #USER2#'s #A1#post#A2#.",
-		'emlhtml_ntf_me_if_u_edt_profl'		=> '#USER# edited their profile info.',
-		'emlhtml_ntf_me_if_u_edt_pictr'		=> '#USER# changed their profile picture.',
-		'emlhtml_ntf_me_if_u_creates_grp'		=> '#USER# created new group: #GROUP#.',
-		'emlhtml_ntf_me_if_u_joins_grp'		=> '#USER# is now a member of #GROUP#.',
-		'emlhtml_ntf_me_if_u_invit_me_grp'		=> '#USER# invites you to join #GROUP#.',
-		'emlhtml_ntf_me_if_u_posts_qme'		=> '#USER# mentioned you in their #A1#post#A2#.',
-		'emlhtml_ntf_me_if_u_posts_prvmsg'		=> '#USER# sent you a #A1#private message#A2#.',
-		'emlhtml_ntf_me_if_u_registers'		=> '#USER# joined the #COMPANY# network.',
-		
-		'emltxt_ntf_me_if_u_follows_me'		=> "#NAME# (#USER#) is now following you.\nCheck out #USER#'s profile: #A0#",
-		'emltxt_ntf_me_if_u_follows_u2'		=> "#NAME# (#USER#) is now following #USER2#.\nCheck out #USER#'s profile: #A0#",
-		'emltxt_ntf_me_if_u_commments_me'		=> "#USER# commented on your post:\n#A0#",
-		'emltxt_ntf_me_if_u_commments_me2'		=> "#USER# also commented on your post:\n#A0#",
-		'emltxt_ntf_me_if_u_commments_m2'		=> "#USER# commented on their post:\n#A0#",
-		'emltxt_ntf_me_if_u_commments_m20'		=> "#USER# also commented on their post:\n#A0#",
-		'emltxt_ntf_me_if_u_commments_m3'		=> "#USER# commented on #USER2#'s post:\n#A0#",
-		'emltxt_ntf_me_if_u_commments_m32'		=> "#USER# also commented on #USER2#'s post:\n#A0#",
-		'emltxt_ntf_me_if_u_edt_profl'		=> "#USER# edited their profile info.\nCheck out #USER#'s profile: #A0#",
-		'emltxt_ntf_me_if_u_edt_pictr'		=> "#USER# changed their profile picture.\nCheck out #USER#'s profile: #A0#",
-		'emltxt_ntf_me_if_u_creates_grp'		=> "#USER# created new group - #GROUP#:\n#A0#",
-		'emltxt_ntf_me_if_u_joins_grp'		=> "#USER# is now a member of #GROUP#:\n#A0#",
-		'emltxt_ntf_me_if_u_invit_me_grp'		=> "#USER# invites you to join #GROUP#:\n#A0#",
-		'emltxt_ntf_me_if_u_posts_qme'		=> "#USER# mentioned you in their post:\n#A0#",
-		'emltxt_ntf_me_if_u_posts_prvmsg'		=> "#USER# sent you a private message:\n#A0#",
-		'emltxt_ntf_me_if_u_registers'		=> "#USER# joined the #COMPANY# network.\nCheck out #USER#'s profile: #A0#",
-	);
-	
+
+$lang = array (
+  'eml_ntf_title' => 'Привет #USER#,',
+  'eml_ntf_signatr' => 'С наилучшими пожеланиями,
+#SITE_URL#',
+  'emltxt_ntf_editnotif' => 'Вы можете настроить порядок уведомлений с сайта: #A0#',
+  'emlhtml_ntf_editnotif' => 'Вы можете настроить порядок уведомлений с сайта #A1#здесь#A2#.',
+  'emlsubj_ntf_me_if_u_follows_me' => '#NAME# теперь ваш подписчик на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_follows_u2' => '#NAME# теперь ваш подписчик #USER2# на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_commments_me' => '#NAME# прокомментировал Ваше сообщение на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_commments_me2' => '#NAME# также прокомментировал ваше сообщение на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_commments_m2' => '#NAME# комментирует свое сообщение на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_commments_m20' => '#NAME# также комментирует свое сообщение на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_commments_m3' => '#NAME# комментирует сообщение #USER2# на сайте #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_commments_m32' => '#NAME# также комментирует сообщение #USER2# на сайте #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_edt_profl' => '#NAME# редактирует свой профайл на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_edt_pictr' => '#NAME# изменил свой аватар на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_creates_grp' => '#NAME# сделал новую группу #GROUP# на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_joins_grp' => '#NAME# присоединился к группе #GROUP# на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_invit_me_grp' => '#NAME# пригласил присоединиться к группе #GROUP# на #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_posts_qme' => '#NAME# упомянул Вас в своем сообщении #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_posts_prvmsg' => '#NAME# прислал вам приватное сообщение #SITE_TITLE#',
+  'emlsubj_ntf_me_if_u_registers' => '#NAME# присоединился к сети #COMPANY#',
+  'emlhtml_ntf_me_if_u_follows_me' => '#NAME# (#USER#) теперь ваш подписчик.',
+  'emlhtml_ntf_me_if_u_follows_u2' => '#NAME# (#USER#) теперь подписчик #USER2#.',
+  'emlhtml_ntf_me_if_u_commments_me' => '#USER# прокомментировал ваше #A1#сообщение#A2#.',
+  'emlhtml_ntf_me_if_u_commments_me2' => '#USER# также прокомментировал ваше #A1#сообщение#A2#.',
+  'emlhtml_ntf_me_if_u_commments_m2' => '#USER# прокомментировал в своем #A1#сообщении#A2#.',
+  'emlhtml_ntf_me_if_u_commments_m20' => '#USER# также прокомментировал в своем #A1#сообщении#A2#.',
+  'emlhtml_ntf_me_if_u_commments_m3' => '#USER# прокомментировал  сообщение #USER2#  #A1#тут#A2#.',
+  'emlhtml_ntf_me_if_u_commments_m32' => '#USER# также прокомментировал сообщение #USER2# #A1#тут#A2#.',
+  'emlhtml_ntf_me_if_u_edt_profl' => '#USER# отредактировал свой профайл.',
+  'emlhtml_ntf_me_if_u_edt_pictr' => '#USER# изменил свой аватар.',
+  'emlhtml_ntf_me_if_u_creates_grp' => '#USER# создал новую группу: #GROUP#.',
+  'emlhtml_ntf_me_if_u_joins_grp' => '#USER# теперь состоит в группе #GROUP#.',
+  'emlhtml_ntf_me_if_u_invit_me_grp' => '#USER# приглашает присоединиться к группе #GROUP#.',
+  'emlhtml_ntf_me_if_u_posts_qme' => '#USER# упомянул вас в своем #A1#сообщении#A2#.',
+  'emlhtml_ntf_me_if_u_posts_prvmsg' => '#USER# отправил вам #A1#приватное сообщение#A2#.',
+  'emlhtml_ntf_me_if_u_registers' => '#USER# присоединился к сети #COMPANY#.',
+  'emltxt_ntf_me_if_u_follows_me' => '#NAME# (#USER#) теперь ваш подписчик.
+Профайл подписчика #USER# : #A0#',
+  'emltxt_ntf_me_if_u_follows_u2' => '#NAME# (#USER#) теперь подписчик #USER2#.
+Профайл подписчика #USER#: #A0#',
+  'emltxt_ntf_me_if_u_commments_me' => '#USER# прокомментировал Ваше сообщение на:
+#A0#',
+  'emltxt_ntf_me_if_u_commments_me2' => '#USER# также прокомментировал Ваше сообщение на:
+#A0#',
+  'emltxt_ntf_me_if_u_commments_m2' => '#USER# комментирует свое сообщение на:
+#A0#',
+  'emltxt_ntf_me_if_u_commments_m20' => '#USER# также комментирует свое сообщение на:
+#A0#',
+  'emltxt_ntf_me_if_u_commments_m3' => '#USER# прокомментировал сообщение от #USER2#:
+#A0#',
+  'emltxt_ntf_me_if_u_commments_m32' => '#USER# также прокомментировал сообщение от #USER2#:
+#A0#',
+  'emltxt_ntf_me_if_u_edt_profl' => '#USER# отредактировал свой профайл.
+Профайл #USER#: #A0#',
+  'emltxt_ntf_me_if_u_edt_pictr' => '#USER# изменил свой аватар.
+Профай #USER#: #A0#',
+  'emltxt_ntf_me_if_u_creates_grp' => '#USER# сделал новую группу - #GROUP#:
+#A0#',
+  'emltxt_ntf_me_if_u_joins_grp' => '#USER# присоединился к группе #GROUP#:
+#A0#',
+  'emltxt_ntf_me_if_u_invit_me_grp' => '#USER# приглашает присоединиться к группе #GROUP#:
+#A0#',
+  'emltxt_ntf_me_if_u_posts_qme' => '#USER# упомянул Вас в своем сообщении:
+#A0#',
+  'emltxt_ntf_me_if_u_posts_prvmsg' => '#USER# прислал вам приватное сообщение:
+#A0#',
+  'emltxt_ntf_me_if_u_registers' => '#USER# вступил в #COMPANY# сеть.
+Профайл #USER#: #A0#',
+  'email_ntf_me_attached_data' => 'This post has attached: ',
+  'email_ntf_me_attached_data_link' => 'Link ',
+  'email_ntf_me_attached_data_video' => 'Embedded Video ',
+  'email_ntf_me_attached_data_image' => 'Image ',
+  'email_ntf_me_attached_data_file' => 'File ',
+)
+
 ?>

@@ -1,12 +1,12 @@
 <?php
-	
-	$lang	= array
-	(
-		'domainconfirm_email_subject'	=> '#DOMAIN# подтверждение владением',
-		'domainconfirm_email_hello'	=> 'Здравствуйте,',
-		'domainconfirm_email_message'	=> 'Для подтверждение владением домена #DOMAIN# на #SITE_TITLE#, следуйте по этой ссылке:',
-		'domainconfirm_email_warning'	=> 'Если вы не запррашивали подтверждение, игнорируйте сообщение.',
-		'domainconfirm_email_signature'	=> "С уважением,\n#SITE_TITLE#",
-	);
-	
+
+$lang = array (
+  'domainconfirm_email_subject' => '#DOMAIN# подтверждение права собственности',
+  'domainconfirm_email_hello' => 'Привет,',
+  'domainconfirm_email_message' => 'Для подтверждения права собственности #DOMAIN# на сайте #SITE_TITLE#, перейдите по этой ссылке:',
+  'domainconfirm_email_warning' => 'В случае, если это письмо попало Вам по ошибке, проигнорируйте его',
+  'domainconfirm_email_signature' => 'С наилучшими пожеланиями,
+#SITE_TITLE#',
+)
+
 ?>

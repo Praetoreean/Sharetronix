@@ -1,21 +1,18 @@
 <?php
-	
-	$lang	= array
-	(
-		'home_page_title'	=> 'Sign In - #SITE_TITLE#',
-		
-		'home_form_title'	=> 'Welcome to #SITE_TITLE# mobile version',
-		'home_form_email'	=> 'E-mail:',
-		'home_form_pass'	=> 'Password:',
-		'home_form_rmbme'	=> 'Remember&nbsp;me',
-		'home_form_btn'	=> 'sign in',
-		'home_form_errmsg'	=> 'Wrong e-mail or password.',
-		
-		'homechnetw_form_title'		=> 'Choose a Network',
-		'homechnetw_form_text'		=> 'Looks like you are a member of more then one network on #SITE_TITLE#. You need to choose which network you want to access:',
-		'homechnetw_form_submit'	=> 'Continue',
-		'homechnetw_privnet'	=> 'company network',
-		'homechnetw_pubnet'	=> 'public network',
-	);
-	
+
+$lang = array (
+  'home_page_title' => 'Вход на сайт - #SITE_TITLE#',
+  'home_form_title' => 'Добро пожаловать в сообщество #SITE_TITLE# мобильная версия',
+  'home_form_email' => 'E-mail:',
+  'home_form_pass' => 'Пароль:',
+  'home_form_rmbme' => 'Запомнить &nbsp;меня',
+  'home_form_btn' => 'Войти',
+  'home_form_errmsg' => 'Неверный e-mail или пароль .',
+  'homechnetw_form_title' => 'Выбрать сеть',
+  'homechnetw_form_text' => 'Looks like you are a member of more then one company network on #SITE_TITLE#. You need to choose which network you want to access:',
+  'homechnetw_form_submit' => 'Продолжить',
+  'homechnetw_privnet' => 'company network',
+  'homechnetw_pubnet' => 'public network',
+)
+
 ?>

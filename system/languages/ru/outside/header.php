@@ -1,8 +1,7 @@
 <?php
-	
-	$lang	= array
-	(
-		'mainnav_backtohome'	=> '#SITE_TITLE# Старт',
-	);
-	
+
+$lang = array (
+  'mainnav_backtohome' => 'На главную #SITE_TITLE#',
+)
+
 ?>

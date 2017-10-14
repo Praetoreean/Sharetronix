@@ -1,12 +1,12 @@
 <?php
-	
-	$lang	= array
-	(
-		'signinforg_email_subject'	=> 'Forgotten Password in #SITE_TITLE#',
-		'signinforg_email_hello'	=> 'Hello,',
-		'signinforg_email_message'	=> 'To restore your password in #SITE_TITLE#, please use the following link:',
-		'signinforg_email_warning'	=> 'In case you have not requested a password recovery, please disregard this message.',
-		'signinforg_email_signature'	=> "Regards,\n#SITE_TITLE#",
-	);
-	
+
+$lang = array (
+  'signinforg_email_subject' => 'Восстановление забытого пароля на #SITE_TITLE#',
+  'signinforg_email_hello' => 'Привет,',
+  'signinforg_email_message' => 'Чтобы восстановить пароль для входа на сайт #SITE_TITLE#, перейдите по этой ссылке:',
+  'signinforg_email_warning' => 'В случае, если это письмо попало Вам по ошибке, проигнорируйте его.',
+  'signinforg_email_signature' => 'С наилучшими пожеланиями,
+#SITE_TITLE#',
+)
+
 ?>

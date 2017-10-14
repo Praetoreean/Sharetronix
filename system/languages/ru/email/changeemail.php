@@ -1,12 +1,12 @@
 <?php
-	
-	$lang	= array
-	(
-		'prof_changemail_subject'	=> 'ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚Ðµ Ð²Ð°Ñˆ email #SITE_TITLE#',
-		'prof_changemail_hello'		=> 'Ð—Ð´Ñ€Ð°Ð²ÑÑ‚Ð²ÑƒÐ¹Ñ‚Ðµ,',
-		'prof_changemail_message'	=> 'Ð´Ð»Ñ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¸Ñ Ð²Ð°ÑˆÐµÐ³Ð¾ Ð°Ð´Ñ€ÐµÑÐ° ÑÐ»ÐµÐºÑ‚Ñ€Ð¾Ð½Ð½Ð¾Ð¹ Ð¿Ð¾Ñ‡Ñ‚Ñ‹ #SITE_TITLE#, Ð¿Ð¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ðµ, ÑÐ»ÐµÐ´ÑƒÐ¹Ñ‚Ðµ Ð¿Ð¾ ÑÑ‚Ð¾Ð¹ ÑÑÑ‹Ð»ÐºÐµ:',
-		'prof_changemail_warning'	=> 'Ð’ Ñ‚Ð¾Ð¼ ÑÐ»ÑƒÑ‡Ð°Ðµ, ÐµÑÐ»Ð¸ Ð²Ñ‹ Ð½Ðµ Ð´ÐµÐ»Ð°Ð»Ð¸ Ð·Ð°Ð¿Ñ€Ð¾Ñ Ð½Ð° ÑÐ¼ÐµÐ½Ñƒ email, Ð¸Ð³Ð½Ð¾Ñ€Ð¸Ñ€ÑƒÐ¹Ñ‚Ðµ ÑÑ‚Ð¾ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ.',
-		'prof_changemail_signature'	=> "Ð¡ ÑƒÐ²Ð°Ð¶ÐµÐ½Ð¸ÐµÐ¼,\n#SITE_TITLE#",
-	);
-	
+
+$lang = array (
+  'prof_changemail_subject' => 'Ïîäòâåðæäåíèå e-mail íà #SITE_TITLE#',
+  'prof_changemail_hello' => 'Çäðàâñòâóéòå,',
+  'prof_changemail_message' => '×òî áû ïîäòâåðäèòü ñâîé e-mail íà #SITE_TITLE#, ïåðåéäèòå ïî ñëåäóþùåé ññûëêå:',
+  'prof_changemail_warning' => 'Â ñëó÷àå, åñëè Âû íå äåëàëè çàïðîñ íà ñìåíó e-mail, ïðîñòî ïðîèãíîðèðóéòå ýòî ñîîáùåíèå.',
+  'prof_changemail_signature' => 'Ñ íàèëó÷øèìè ïîæåëàíèÿìè,
+#SITE_TITLE#',
+)
+
 ?>

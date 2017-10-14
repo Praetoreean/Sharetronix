@@ -3,11 +3,11 @@
 	$current_language	= (object) array
 	(
 		'name'		=> 'Russian',
-		'php_timezone'	=> 'Russia/Moscow',
+		'php_timezone'	=> 'Europe/Moscow',
 		'php_locale'	=> 'ru_RU.UTF-8',
 		
-		'author_name'	=> 'Praetoreean',
-		'author_url'	=> 'https://1studi.ru',
+		'author_name'	=> 'Elefant',
+		'author_url'	=> 'http://micro.by',
 		
 		'is_beta'		=> FALSE,
 	);

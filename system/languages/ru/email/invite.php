@@ -1,18 +1,18 @@
 <?php
-	
-	$lang	= array
-	(
-		'invite_email_subject'	=> 'Присоединяйтесь к сети #COMPANY# ',
-		'invite_email_hello'	=> '#WHOM#,',
-		'invite_email_message'	=> '#WHO# Приглашает присоединиться к сети #COMPANY# .',
-		'invite_email_regtext'	=> 'Для регистрации следуйте по ссылке:',
-		'invite_email_signature'	=> "С уважением,\n#SITE_TITLE#",
-		
-		'os_invite_email_subject'	=> 'Присоединиться #SITE_TITLE#',
-		'os_invite_email_hello'		=> '#WHOM#,',
-		'os_invite_email_message'	=> '#WHO# Приглашает присоединиться к #SITE_TITLE#.',
-		'os_invite_email_regtext'	=> 'Для регистрации следуйте по ссылке:',
-		'os_invite_email_signature'	=> "С уважением,\n#SITE_TITLE#",
-	);
-	
+
+$lang = array (
+  'invite_email_subject' => 'Приглашаем присоединиться к частной сети #COMPANY# ',
+  'invite_email_hello' => '#WHOM#,',
+  'invite_email_message' => '#WHO# приглашает Вас присоединиться к частной сети #COMPANY#.',
+  'invite_email_regtext' => 'Чтобы зарегистрироваться, перейдите по этой ссылке:',
+  'invite_email_signature' => 'С наилучшими пожеланиями,
+#SITE_TITLE#',
+  'os_invite_email_subject' => 'Регистрация на #SITE_TITLE#',
+  'os_invite_email_hello' => '#WHOM#,',
+  'os_invite_email_message' => '#WHO# пригласил Вас зарегистрироваться на #SITE_TITLE#.',
+  'os_invite_email_regtext' => 'Чтобы зарегистрироваться, перейдите по этой ссылке:',
+  'os_invite_email_signature' => 'С наилучшими пожеланиями,
+#SITE_TITLE#',
+)
+
 ?>

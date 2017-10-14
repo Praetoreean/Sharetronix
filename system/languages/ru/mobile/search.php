@@ -1,28 +1,23 @@
 <?php
-	
-	$lang	= array
-	(
-		'search_title_users'	=> 'Find Users - #SITE_TITLE#',
-		'search_title_posts'	=> 'Find Posts - #SITE_TITLE#',
-		'search_title_groups'	=> 'Find Groups - #SITE_TITLE#',
-		
-		'search_form_title'	=> 'Search for:',
-		'search_form_in'		=> 'in:',
-		'search_form_submit'	=> 'Search',
-		
-		'search_menu_users'	=> 'Members',
-		'search_menu_posts'	=> 'Posts',
-		'search_menu_groups'	=> 'Groups',
-		
-		'search_nores'	=> 'No results matching your search criteria.',
-		
-		'iphone_srch_posts1'	=> 'Search Posts',
-		'iphone_srch_users1'	=> 'Search Users',
-		'iphone_srch_groups1'	=> 'Search Groups',
-		'iphone_srch_posts2'	=> 'Posts',
-		'iphone_srch_users2'	=> 'Users',
-		'iphone_srch_groups2'	=> 'Groups',
-		'iphone_saved_searches'	=> 'Saved Searches',
-	);
-	
+
+$lang = array (
+  'search_title_users' => 'Поиск Пользователей - #SITE_TITLE#',
+  'search_title_posts' => 'Поиск Сообщений - #SITE_TITLE#',
+  'search_title_groups' => 'Поиск Групп - #SITE_TITLE#',
+  'search_form_title' => 'Искать:',
+  'search_form_in' => 'в разделе:',
+  'search_form_submit' => 'Поиск',
+  'search_menu_users' => 'Пользователи',
+  'search_menu_posts' => 'Сообщения',
+  'search_menu_groups' => 'Группы',
+  'search_nores' => 'По Вашему запросу ничего не найдено.',
+  'iphone_srch_posts1' => 'Поиск Сообщений',
+  'iphone_srch_users1' => 'Поиск Пользователей',
+  'iphone_srch_groups1' => 'Поиск Групп',
+  'iphone_srch_posts2' => 'Сообщения',
+  'iphone_srch_users2' => 'Пользователи',
+  'iphone_srch_groups2' => 'Группы',
+  'iphone_saved_searches' => 'Сохранить результаты',
+)
+
 ?>

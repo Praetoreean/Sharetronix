@@ -1,37 +1,31 @@
 <?php
-	
-	$lang	= array
-	(
-		'contacts_pgtitle'		=> 'Контакт - #SITE_TITLE#',
-		'contacts_ttl'			=> 'Контакт с нами',
-		
-		'contacts_left_ttl'		=> 'Форма обратной связи',
-		
-		'cnt_frm_fullname'	=> 'Имя:',
-		'cnt_frm_email'		=> 'E-mail:',
-		'cnt_frm_subject'		=> 'Тема:',
-		'cnt_frm_sbj_buy'		=> 'Купить #SITE_TITLE#',
-		'cnt_frm_sbj_help'	=> 'Помощь в использовании #SITE_TITLE#',
-		'cnt_frm_sbj_partnr'	=> 'Бизнес предложение или партнёрство',
-		'cnt_frm_sbj_bugs'	=> 'Сообщить о проблеме',
-		'cnt_frm_sbj_other'	=> 'Другое',
-		'cnt_frm_message'		=> 'Сообщение:',
-		'cnt_frm_captcha'		=> 'Код картинки:',
-		'cnt_frm_sbm'		=> 'Отправить сообщение',
-		
-		'cntf_error'		=> 'Ошибка',
-		'cntf_err_fullname'	=> 'пожалуйста, укажите имя.',
-		'cntf_err_email1'		=> 'Укажите ваш адрес электронной почты.',
-		'cntf_err_email2'		=> 'email не верный.',
-		'cntf_err_subject'	=> 'Выберите тему сообщения.',
-		'cntf_err_message'	=> 'пожалуйста, введите сообщение.',
-		'cntf_err_captcha'	=> 'Код подтверждения неверный. Повторите снова.',
-		'cntf_ok_ttl'	=> 'Сообщение отправилено',
-		'cntf_ok_txt'	=> 'Мы ответим вам очень скоро.',
-		
-		'cnt_faqlink_txt'	=> 'Ответы на простые вопросы можно почитать в разделе FAQ нашего сайта.',
-		'cnt_faqlink_btn'	=> 'Перейти к FAQ',
-		
-	);
-	
+
+$lang = array (
+  'contacts_pgtitle' => 'Связаться с нами - #SITE_TITLE#',
+  'contacts_ttl' => 'Связаться с нами',
+  'contacts_left_ttl' => 'Форма отправки письма для администрации',
+  'cnt_frm_fullname' => 'Ваше имя:',
+  'cnt_frm_email' => 'E-mail:',
+  'cnt_frm_subject' => 'Тема:',
+  'cnt_frm_sbj_buy' => 'Купить #SITE_TITLE#',
+  'cnt_frm_sbj_help' => 'Нужна помощь по #SITE_TITLE#',
+  'cnt_frm_sbj_partnr' => 'Business suggestion or partnership opportunity',
+  'cnt_frm_sbj_bugs' => 'Информация об ошибке',
+  'cnt_frm_sbj_other' => 'Другое',
+  'cnt_frm_message' => 'Ваше сообщение:',
+  'cnt_frm_captcha' => 'Код с картинки:',
+  'cnt_frm_sbm' => 'Отправить',
+  'cntf_error' => 'Ошибка',
+  'cntf_err_fullname' => 'Укажите ваше имя.',
+  'cntf_err_email1' => 'Укажите свой e-mail адрес.',
+  'cntf_err_email2' => 'Не правильный e-mail адрес.',
+  'cntf_err_subject' => 'Укажите тему письма.',
+  'cntf_err_message' => 'Напишите сообщение.',
+  'cntf_err_captcha' => 'Код на картинке не верный. Попробуйте еще раз',
+  'cntf_ok_ttl' => 'Сообщение отправлено',
+  'cntf_ok_txt' => 'Мы вам ответим как только появится возможность.',
+  'cnt_faqlink_txt' => 'Just want to ask us something simple? Check out the Frequently Asked Questions section.',
+  'cnt_faqlink_btn' => 'Посмотреть ЧаВо',
+)
+
 ?>

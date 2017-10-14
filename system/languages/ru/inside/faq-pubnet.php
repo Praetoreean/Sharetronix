@@ -76,7 +76,7 @@
 		
 		
 		'faqpb_c3_title'		=> 'Posting',
-		'faqpb_c3_posts_number'	=> 4,
+		'faqpb_c3_posts_number'	=> 5,
 		
 		'faqpb_c3_p1_title'	=> 'Posting Status Updates',
 		'faqpb_c3_p1_text'	=> 'To create a post in #SITE_TITLE#, simply click on the orange button in the left column of dashboard or shortcut [b]P[/b]. Not only can you post text, you can also attach links, pictures, videos and files. At the top of this form, you will see [b]share something with[/b]. You can choose to share something with your followers, any of your groups, or you can send a private message to a user. When you select a user, all you have to do is start typing the name of the person or their user alias and you will get pre search results.',
@@ -98,6 +98,10 @@
 		'faqpb_c3_p4_image'	=> 'design/faq/tagging.gif',
 		'faqpb_c3_p4_imgtxt'	=> '',
 		
+		'faqpb_c3_p5_title'	=> 'Resharing a post',
+		'faqpb_c3_p5_text'	=> '[b]Resharing[/b] is to repeat/quote someone’s post. Say you come across an interesting post and you want to republish it so the people who follow you can see it too – you [b]reshare[/b] it. In order to reshare post you want, just open the top post menu and click [b]Reshare button[/b]. You can also [b]reshare[/b] a post if you click the [b]Share[/b] link at the bottom of the post\'s body.',
+		'faqpb_c3_p5_image'	=> 'design/faq/faq_reshare.gif',
+		'faqpb_c3_p5_imgtxt'	=> '',
 		
 		'faqpb_c4_title'		=> 'Following Users',
 		'faqpb_c4_posts_number'	=> 2,
@@ -117,7 +121,7 @@
 		'faqpb_c5_posts_number'	=> 3,
 		
 		'faqpb_c5_p1_title'	=> 'How do I use tags ?',
-		'faqpb_c5_p1_text'	=> "This means to subscribe to all of the posts from a particular user in #SITE_TITLE#. In your dashboard in the [url=#SITE_URL#dashboard]Activity Feed[/url], you will see all of the posts from the users that you follow.\n\nTo begin to follow a user is easy. Just go to their profile and click on the icon that has a + sign with a profile next to it at the top right. It will say [b]Follow username[/b]. If you later decide that you no longer want to get user updates from this user, go to his profile and click on the same icon that says [b]Stop following username[/b]. Moreover users can monitor groups and tags.",
+		'faqpb_c5_p1_text'	=> "Tags are words in specific posts, which will automatically be converted into a link connected to search results for the word. To make a word a tag simply put a <b>#</b> before it. For example, if you type in a post <b>This is a tagging #example</b> then the system will automatically recognize that the word <b>#example</b> is the tag and converts it to a link to a search engine that will show you all the tags containing the word <b>example</b>. Thus it’s quite easy to organize your content and connect thematically common posts. Tags can also be monitored by the user, allowing it to maintain thematic channels on your network.",
 		'faqpb_c5_p1_image'	=> 'design/faq/tagging.gif',
 		'faqpb_c5_p1_imgtxt'	=> '',
 		

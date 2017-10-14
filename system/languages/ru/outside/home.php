@@ -1,19 +1,20 @@
 <?php
-	
-	$lang	= array
-	(
-		'os_home_page_title'	=> '#SITE_TITLE# - сеть сообщества',
-		
-		'os_welcome_ttl'	=> 'Добро пожаловать в сообщество #SITE_TITLE# ',
-		'os_welcome_txt'	=> 'В сети # SITE_TITLE # участники могут обмениваться информацией и данными, используя мгновенные обновления статуса из более чем 160 символов. Покажите другим участникам фотографии, отправляйте публичные и личные сообщения, публикуйте видео. Легко связывайтесь с любым из коллег и пользователей сети # SITE_TITLE #, отслеживайте обновления участников. Все это, и многое другое в уникальной сети сообщества # SITE_TITLE # !',
-		'os_welcome_btn'	=> 'Присоединиться',
-		'os_login_ttl'	=> 'Вход',
-		'os_login_unm'	=> 'Имя:',
-		'os_login_pwd'	=> 'Пароль:',
-		'os_login_btn'	=> 'Вход',
-		'os_login_rem'	=> 'Запомнить меня',
-		'os_login_reg'	=> 'Создать аккаунт',
-		'os_login_frg'	=> 'Восстановление пароля',
-	);
-	
+
+$lang = array (
+  'os_home_page_title' => '#SITE_TITLE# - твоя сеть микро-блогов',
+  'os_welcome_ttl' => 'Добро пожаловать в сообщество #SITE_TITLE#',
+  'os_welcome_txt' => 'Можно много рассказывать о преимуществах #SITE_TITLE#, множестве полезных фич для комфортабельного общения, но лучше все попробовать самому. Заходите за хорошим настроением!',
+  'os_welcome_btn' => 'Зарегистрироваться',
+  'os_login_ttl' => 'Войти',
+  'os_login_unm' => 'Логин:',
+  'os_login_pwd' => 'Пароль:',
+  'os_login_btn' => 'Войти',
+  'os_login_rem' => 'Запомнить меня',
+  'os_login_reg' => 'Новая регистрация',
+  'os_login_frg' => 'Вспомнить пароль',
+  'os_noposts_ttl' => 'No posts',
+  'os_noposts_unreg_mgs' => 'There are no posts visible for not registered users.',
+  'os_noposts_match_mgs' => 'There are no posts matching your criteria.',
+)
+
 ?>

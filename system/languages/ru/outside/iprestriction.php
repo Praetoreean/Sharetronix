@@ -2,11 +2,11 @@
 	
 	$lang	= array
 	(
-		'iprestriction_page_title'	=> 'IP запрещен - #SITE_TITLE#',
+		'iprestriction_page_title'	=> 'IP Restriction - #SITE_TITLE#',
 		
-		'iprestriction_title'		=> 'Запрет для IP',
-		'iprestriction_msg_title'	=> 'Доступ в сеть #COMPANY# ограничен с вашего компьютера.',
-		'iprestriction_msg_text'	=> 'Администратор сети применил ограничения для IP адресов. Похоже на то, что ваш IP соответствует тому, что в списке запрещенных.<br />Вы можете <a href="/signin">войти</a> с этого IP только если вы являетесь администратором сети.',
+		'iprestriction_title'		=> 'IP Restriction',
+		'iprestriction_msg_title'	=> 'You cannot access the #COMPANY# network from this computer.',
+		'iprestriction_msg_text'	=> 'The network administrator has applied IP restrictions to the network and it seems that your IP address is not allowed to access.<br />You can <a href="/signin">sign in</a> from this IP only if you are network administrator.',
 	);
 	
 ?>
